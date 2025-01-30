@@ -1,0 +1,9 @@
+@media (max-width: 320px) {
+    #navbar_in_main {
+      width: 380px;
+     
+    }
+    #username{
+      margin-left: 45px;
+    }
+}
