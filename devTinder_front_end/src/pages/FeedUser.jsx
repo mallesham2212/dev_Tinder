@@ -42,7 +42,7 @@ const FeedUser  = ({ user }) => {
                     <p>{user?.gender}</p>
                     <div className="card-actions justify-evenly">
                         <button onClick={() => handleRequestIgnore("ignored", user._id)} className="btn btn-primary">Ignore</button>
-                        <button onClick={() => handleRequestInterest("interested", user._id)} className="btn btn-secondary">Interested</button>
+                        <button onClick={() => handleRequestInterest("intrested", user._id)} className="btn btn-secondary">Interested</button>
                     </div>
                 </div>
             </div>
